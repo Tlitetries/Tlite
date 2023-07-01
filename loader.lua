@@ -13,7 +13,7 @@ getgenv().Library = loadstring(game:HttpGet(repository .. "Library.lua"))()
 local ThemeManager = loadstring(game:HttpGet(repository .. "addons/ThemeManager.lua"))()
 local SaveManager = loadstring(game:HttpGet(repository .. "addons/SaveManager.lua"))()
 
-local Esp = loadstring(game:HttpGet("https://raw.githubusercontent.com/SnowyXS/SLite/main/Libraries/Universal/PlayerEsp.lua"))()
+local Esp = loadstring(game:HttpGet("https://raw.githubusercontent.com/Tlitetries/Tlite/main/Libraries/Universal/PlayerEsp.lua"))()
 local PlayersEsp = Esp.players
 
 local Window = Library:CreateWindow({
@@ -24,7 +24,7 @@ local Window = Library:CreateWindow({
 
 
 local success, script = pcall(function()
-    return game:HttpGet("https://raw.githubusercontent.com/SnowyXS/SLite/main/Games/" .. placeID .. ".lua") 
+    return game:HttpGet("https://raw.githubusercontent.com/Tlitetries/Tlite/main/Games/" .. placeID .. ".lua") 
 end)
 
 if success then
