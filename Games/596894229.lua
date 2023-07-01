@@ -268,15 +268,6 @@ return function(Window)
             Tooltip = "Select special element",
         })
         
-        local specialDropDown = subChangerBox:AddDropdown("special", {
-            Values = {"Soul Projection"},
-            Default = 1,
-            Multi = true,
-            
-            Text = "Special",
-            Tooltip = "Select special element",
-        })
-
         local secondSpecialDropDown = subChangerBox:AddDropdown("special2", {
             Values = {"None"},
             AllowNull = true,
